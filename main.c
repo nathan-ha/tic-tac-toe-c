@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 void display_board(char *);
-int get_input(char *);
+int get_input();
 
 int main()
 {
@@ -45,7 +45,7 @@ void display_board(char *board)
 }
 
 // returns array index as specified by user
-int get_input(char *board) {
+int get_input() {
     int input = 0;
     while (true)
     {
